@@ -1,0 +1,41 @@
+$principal:#1C2256;
+
+$primary: $principal;
+
+
+.carousel-inner{
+    max-height: 60vh!important;
+    .carousel-item{
+        img{
+            object-fit: cover;
+        }
+    }
+}
+
+.card{
+    border:none!important;
+}
+
+a.scroll-top {
+	display: none;
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	z-index: 1000;
+	bottom: 50px;
+	right: 30px;
+	font-size: 20px;
+	border-radius: 3px !important;
+	text-align: center;
+	border: 1px solid hsla(0, 0%, 78%, 0.3);
+    i{
+        position: relative;
+	top: 2px;
+    }
+}
+
+a:hover{
+    color: rgb(100, 100, 100)!important;
+}
+
+@import 'bootstrap.scss';
