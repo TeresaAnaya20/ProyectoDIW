@@ -4,7 +4,7 @@ $primary: $principal;
 
 
 .carousel-inner{
-    max-height: 60vh!important;
+    height: 80vh!important;
     .carousel-item{
         img{
             object-fit: cover;
@@ -17,6 +17,7 @@ $primary: $principal;
 }
 
 a.scroll-top {
+	color: black;
 	display: none;
 	width: 30px;
 	height: 30px;
@@ -27,15 +28,17 @@ a.scroll-top {
 	font-size: 20px;
 	border-radius: 3px !important;
 	text-align: center;
-	border: 1px solid hsla(0, 0%, 78%, 0.3);
-    i{
-        position: relative;
-	top: 2px;
-    }
+    
 }
 
 a:hover{
     color: rgb(100, 100, 100)!important;
+}
+
+.menu{
+	top: 0px!important;
+	z-index: 10;
+	
 }
 
 @import 'bootstrap.scss';
